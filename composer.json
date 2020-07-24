@@ -1,9 +1,12 @@
 {
   "autoload": {
-      "psr-4": {"App\\": "src/"}
+    "psr-4": {
+      "App\\": "src/"
+    }
   },
   "scripts": {
-    "psalm": "psalm"
+    "psalm": "psalm",
+    "phpstan": "phpstan analyse -c phpstan.neon"
   },
   "require-dev": {
     "vimeo/psalm": "^3.12"
