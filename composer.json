@@ -1,0 +1,11 @@
+{
+  "autoload": {
+      "psr-4": {"App\\": "src/"}
+  },
+  "scripts": {
+    "psalm": "psalm"
+  },
+  "require-dev": {
+    "vimeo/psalm": "^3.12"
+  }
+}
